@@ -108,5 +108,12 @@ if(x == 'მარიამ') {
 // !10
 
 let y = 'მარიამ'
-const z = 'მარიამ' ? true : false
-console.log(z);
+
+switch (y) {
+    case 'მარიამ':
+    console.log(true);    
+        break;
+    default:
+    console.log(false);
+        break;
+}
