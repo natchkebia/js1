@@ -8,7 +8,7 @@ for(let i = 5; i <= 100; i++) {
 
 let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
 for (let i = 0; i <= array1.length; i++) {
-    if (array1[i] > 0) {
+    if (array1[i] > 0 && array1[i] < 10) {
     console.log(array1[i]);
     }
 }
